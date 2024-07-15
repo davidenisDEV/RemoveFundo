@@ -4,7 +4,7 @@ from tkinter import Tk, filedialog
 
 def remove_background_from_folder(input_folder):
     
-    rmbg = RemoveBg("R4CJbaMKgkYcEWvsFwHw2xPY", "error.log")
+    rmbg = RemoveBg("cahve_API", "error.log")
     
     
     for filename in os.listdir(input_folder):
